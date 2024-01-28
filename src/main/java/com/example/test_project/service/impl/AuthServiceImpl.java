@@ -1,11 +1,11 @@
-package com.example.tasklist.service.impl;
+package com.example.test_project.service.impl;
 
-import com.example.tasklist.domain.user.User;
-import com.example.tasklist.service.AuthService;
-import com.example.tasklist.service.UserService;
-import com.example.tasklist.web.dto.auth.JwtRequest;
-import com.example.tasklist.web.dto.auth.JwtResponse;
-import com.example.tasklist.web.security.JwtTokenProvider;
+import com.example.test_project.domain.user.User;
+import com.example.test_project.service.AuthService;
+import com.example.test_project.service.UserService;
+import com.example.test_project.web.dto.auth.JwtRequest;
+import com.example.test_project.web.dto.auth.JwtResponse;
+import com.example.test_project.web.security.JwtTokenProvider;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

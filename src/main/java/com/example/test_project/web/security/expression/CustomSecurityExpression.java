@@ -1,8 +1,8 @@
-package com.example.tasklist.web.security.expression;
+package com.example.test_project.web.security.expression;
 
-import com.example.tasklist.domain.user.Role;
-import com.example.tasklist.service.UserService;
-import com.example.tasklist.web.security.JwtEntity;
+import com.example.test_project.domain.user.Role;
+import com.example.test_project.service.UserService;
+import com.example.test_project.web.security.JwtEntity;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

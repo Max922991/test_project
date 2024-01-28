@@ -1,4 +1,4 @@
-package com.example.tasklist.web.dto.validation;
+package com.example.test_project.web.dto.validation;
 
 public interface OnCreate {
 }

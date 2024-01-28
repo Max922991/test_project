@@ -1,12 +1,12 @@
-package com.example.tasklist.service.impl;
+package com.example.test_project.service.impl;
 
-import com.example.tasklist.domain.MailType;
-import com.example.tasklist.domain.task.Task;
-import com.example.tasklist.domain.user.User;
-import com.example.tasklist.service.MailService;
-import com.example.tasklist.service.Reminder;
-import com.example.tasklist.service.TaskService;
-import com.example.tasklist.service.UserService;
+import com.example.test_project.domain.MailType;
+import com.example.test_project.domain.task.Task;
+import com.example.test_project.domain.user.User;
+import com.example.test_project.service.MailService;
+import com.example.test_project.service.Reminder;
+import com.example.test_project.service.TaskService;
+import com.example.test_project.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;

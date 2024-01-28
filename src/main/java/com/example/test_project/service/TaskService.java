@@ -1,7 +1,9 @@
-package com.example.tasklist.service;
+package com.example.test_project.service;
 
-import com.example.tasklist.domain.task.Task;
-import com.example.tasklist.domain.task.TaskImage;
+
+
+import com.example.test_project.domain.task.Task;
+import com.example.test_project.domain.task.TaskImage;
 
 import java.time.Duration;
 import java.util.List;

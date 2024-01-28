@@ -1,9 +1,9 @@
-package com.example.tasklist.service.impl;
+package com.example.test_project.service.impl;
 
-import com.example.tasklist.domain.exception.ImageUploadException;
-import com.example.tasklist.domain.task.TaskImage;
-import com.example.tasklist.service.ImageService;
-import com.example.tasklist.service.props.MinioProperties;
+import com.example.test_project.domain.exception.ImageUploadException;
+import com.example.test_project.domain.task.TaskImage;
+import com.example.test_project.service.ImageService;
+import com.example.test_project.service.props.MinioProperties;
 import io.minio.BucketExistsArgs;
 import io.minio.MakeBucketArgs;
 import io.minio.MinioClient;
@@ -29,7 +29,7 @@ public class ImageServiceImpl implements ImageService {
             createBucket();
         } catch (Exception e) {
             throw new ImageUploadException("Image upload failed: "
-                    + e.getMessage());
+                                           + e.getMessage());
         }
         MultipartFile file = image.getFile();
         if (file.isEmpty() || file.getOriginalFilename() == null) {

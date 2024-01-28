@@ -1,12 +1,12 @@
-package com.example.tasklist.service.impl;
+package com.example.test_project.service.impl;
 
-import com.example.tasklist.domain.MailType;
-import com.example.tasklist.domain.exception.ResourceNotFoundException;
-import com.example.tasklist.domain.user.Role;
-import com.example.tasklist.domain.user.User;
-import com.example.tasklist.repository.UserRepository;
-import com.example.tasklist.service.MailService;
-import com.example.tasklist.service.UserService;
+import com.example.test_project.domain.MailType;
+import com.example.test_project.domain.exception.ResourceNotFoundException;
+import com.example.test_project.domain.user.Role;
+import com.example.test_project.domain.user.User;
+import com.example.test_project.repository.UserRepository;
+import com.example.test_project.service.MailService;
+import com.example.test_project.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;

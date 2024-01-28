@@ -1,4 +1,4 @@
-package com.example.tasklist.domain;
+package com.example.test_project.domain;
 
 public enum MailType {
 

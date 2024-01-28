@@ -1,4 +1,4 @@
-package com.example.tasklist.web.security;
+package com.example.test_project.web.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletRequest;
@@ -9,6 +9,8 @@ import lombok.SneakyThrows;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.filter.GenericFilterBean;
+
+
 
 @AllArgsConstructor
 public class JwtTokenFilter extends GenericFilterBean {

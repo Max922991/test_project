@@ -1,4 +1,4 @@
-package com.example.tasklist.web.dto.auth;
+package com.example.test_project.web.dto.auth;
 
 import lombok.Data;
 

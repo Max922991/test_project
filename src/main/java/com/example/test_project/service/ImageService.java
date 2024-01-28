@@ -1,6 +1,7 @@
-package com.example.tasklist.service;
+package com.example.test_project.service;
 
-import com.example.tasklist.domain.task.TaskImage;
+
+import com.example.test_project.domain.task.TaskImage;
 
 public interface ImageService {
 

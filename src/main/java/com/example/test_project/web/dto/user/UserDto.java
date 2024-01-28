@@ -1,7 +1,7 @@
-package com.example.tasklist.web.dto.user;
+package com.example.test_project.web.dto.user;
 
-import com.example.tasklist.web.dto.validation.OnCreate;
-import com.example.tasklist.web.dto.validation.OnUpdate;
+import com.example.test_project.web.dto.validation.OnUpdate;
+import com.example.test_project.web.dto.validation.OnCreate;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotNull;

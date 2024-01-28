@@ -1,7 +1,7 @@
-package com.example.tasklist.web.security;
+package com.example.test_project.web.security;
 
-import com.example.tasklist.domain.user.User;
-import com.example.tasklist.service.UserService;
+import com.example.test_project.domain.user.User;
+import com.example.test_project.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

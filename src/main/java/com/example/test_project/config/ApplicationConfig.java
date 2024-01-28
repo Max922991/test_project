@@ -1,9 +1,10 @@
-package com.example.tasklist.config;
+package com.example.test_project.config;
 
-import com.example.tasklist.service.props.MinioProperties;
-import com.example.tasklist.web.security.JwtTokenFilter;
-import com.example.tasklist.web.security.JwtTokenProvider;
-import com.example.tasklist.web.security.expression.CustomSecurityExceptionHandler;
+
+import com.example.test_project.service.props.MinioProperties;
+import com.example.test_project.web.security.JwtTokenFilter;
+import com.example.test_project.web.security.JwtTokenProvider;
+import com.example.test_project.web.security.expression.CustomSecurityExceptionHandler;
 import io.minio.MinioClient;
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;

@@ -1,15 +1,15 @@
-package com.example.tasklist.web.controller;
+package com.example.test_project.web.controller;
 
-import com.example.tasklist.domain.task.Task;
-import com.example.tasklist.domain.user.User;
-import com.example.tasklist.service.TaskService;
-import com.example.tasklist.service.UserService;
-import com.example.tasklist.web.dto.task.TaskDto;
-import com.example.tasklist.web.dto.user.UserDto;
-import com.example.tasklist.web.dto.validation.OnCreate;
-import com.example.tasklist.web.dto.validation.OnUpdate;
-import com.example.tasklist.web.mappers.TaskMapper;
-import com.example.tasklist.web.mappers.UserMapper;
+import com.example.test_project.domain.task.Task;
+import com.example.test_project.domain.user.User;
+import com.example.test_project.service.TaskService;
+import com.example.test_project.service.UserService;
+import com.example.test_project.web.dto.task.TaskDto;
+import com.example.test_project.web.dto.user.UserDto;
+import com.example.test_project.web.dto.validation.OnCreate;
+import com.example.test_project.web.dto.validation.OnUpdate;
+import com.example.test_project.web.mappers.TaskMapper;
+import com.example.test_project.web.mappers.UserMapper;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;

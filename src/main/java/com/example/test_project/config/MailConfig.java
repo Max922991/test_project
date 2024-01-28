@@ -1,6 +1,6 @@
-package com.example.tasklist.config;
+package com.example.test_project.config;
 
-import com.example.tasklist.service.props.MailProperties;
+import com.example.test_project.service.props.MailProperties;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

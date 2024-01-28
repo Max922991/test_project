@@ -1,4 +1,4 @@
-package com.example.tasklist.config;
+package com.example.test_project.config;
 
 import graphql.schema.GraphQLScalarType;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.example.tasklist.domain.exception;
+package com.example.test_project.domain.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

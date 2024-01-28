@@ -1,8 +1,8 @@
-package com.example.tasklist.web.dto.task;
+package com.example.test_project.web.dto.task;
 
-import com.example.tasklist.domain.task.Status;
-import com.example.tasklist.web.dto.validation.OnCreate;
-import com.example.tasklist.web.dto.validation.OnUpdate;
+import com.example.test_project.domain.task.Status;
+import com.example.test_project.web.dto.validation.OnCreate;
+import com.example.test_project.web.dto.validation.OnUpdate;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.validation.constraints.NotNull;

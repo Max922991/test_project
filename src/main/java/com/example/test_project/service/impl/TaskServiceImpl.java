@@ -1,12 +1,12 @@
-package com.example.tasklist.service.impl;
+package com.example.test_project.service.impl;
 
-import com.example.tasklist.domain.exception.ResourceNotFoundException;
-import com.example.tasklist.domain.task.Status;
-import com.example.tasklist.domain.task.Task;
-import com.example.tasklist.domain.task.TaskImage;
-import com.example.tasklist.repository.TaskRepository;
-import com.example.tasklist.service.ImageService;
-import com.example.tasklist.service.TaskService;
+import com.example.test_project.domain.exception.ResourceNotFoundException;
+import com.example.test_project.domain.task.Status;
+import com.example.test_project.domain.task.Task;
+import com.example.test_project.domain.task.TaskImage;
+import com.example.test_project.repository.TaskRepository;
+import com.example.test_project.service.ImageService;
+import com.example.test_project.service.TaskService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;

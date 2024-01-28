@@ -1,6 +1,6 @@
-package com.example.tasklist.repository;
+package com.example.test_project.repository;
 
-import com.example.tasklist.domain.task.Task;
+import com.example.test_project.domain.task.Task;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

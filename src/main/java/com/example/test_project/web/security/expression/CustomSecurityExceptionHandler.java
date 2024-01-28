@@ -1,7 +1,7 @@
-package com.example.tasklist.web.security.expression;
+package com.example.test_project.web.security.expression;
 
-import com.example.tasklist.service.UserService;
 import org.aopalliance.intercept.MethodInvocation;
+import com.example.test_project.service.UserService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler;
 import org.springframework.security.access.expression.method.MethodSecurityExpressionOperations;

@@ -1,7 +1,7 @@
-package com.example.tasklist.web.security;
+package com.example.test_project.web.security;
 
-import com.example.tasklist.domain.user.Role;
-import com.example.tasklist.domain.user.User;
+import com.example.test_project.domain.user.Role;
+import com.example.test_project.domain.user.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 

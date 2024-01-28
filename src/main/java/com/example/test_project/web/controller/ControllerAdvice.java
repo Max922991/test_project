@@ -1,10 +1,6 @@
-package com.example.tasklist.web.controller;
+package com.example.test_project.web.controller;
 
-import com.example.tasklist.domain.exception.AccessDeniedException;
-import com.example.tasklist.domain.exception.ExceptionBody;
-import com.example.tasklist.domain.exception.ImageUploadException;
-import com.example.tasklist.domain.exception.ResourceMappingException;
-import com.example.tasklist.domain.exception.ResourceNotFoundException;
+import com.example.test_project.domain.exception.*;
 import jakarta.validation.ConstraintViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.AuthenticationException;

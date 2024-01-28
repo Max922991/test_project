@@ -1,4 +1,4 @@
-package com.example.tasklist.domain.user;
+package com.example.test_project.domain.user;
 
 import com.example.tasklist.domain.task.Task;
 import jakarta.persistence.CollectionTable;

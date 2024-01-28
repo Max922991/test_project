@@ -1,8 +1,8 @@
-package com.example.tasklist.service.impl;
+package com.example.test_project.service.impl;
 
-import com.example.tasklist.domain.MailType;
-import com.example.tasklist.domain.user.User;
-import com.example.tasklist.service.MailService;
+import com.example.test_project.domain.MailType;
+import com.example.test_project.domain.user.User;
+import com.example.test_project.service.MailService;
 import freemarker.template.Configuration;
 import jakarta.mail.internet.MimeMessage;
 import lombok.RequiredArgsConstructor;
@@ -15,6 +15,7 @@ import java.io.StringWriter;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
+
 
 @Service
 @RequiredArgsConstructor
@@ -85,5 +86,4 @@ public class MailServiceImpl implements MailService {
                 .process(model, writer);
         return writer.getBuffer().toString();
     }
-
 }

@@ -1,13 +1,13 @@
-package com.example.tasklist.web.controller;
+package com.example.test_project.web.controller;
 
-import com.example.tasklist.domain.task.Task;
-import com.example.tasklist.domain.task.TaskImage;
-import com.example.tasklist.service.TaskService;
-import com.example.tasklist.web.dto.task.TaskDto;
-import com.example.tasklist.web.dto.task.TaskImageDto;
-import com.example.tasklist.web.dto.validation.OnUpdate;
-import com.example.tasklist.web.mappers.TaskImageMapper;
-import com.example.tasklist.web.mappers.TaskMapper;
+import com.example.test_project.domain.task.Task;
+import com.example.test_project.domain.task.TaskImage;
+import com.example.test_project.service.TaskService;
+import com.example.test_project.web.dto.task.TaskDto;
+import com.example.test_project.web.dto.task.TaskImageDto;
+import com.example.test_project.web.dto.validation.OnUpdate;
+import com.example.test_project.web.mappers.TaskImageMapper;
+import com.example.test_project.web.mappers.TaskMapper;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;

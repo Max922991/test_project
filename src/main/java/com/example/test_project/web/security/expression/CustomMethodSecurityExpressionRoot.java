@@ -1,8 +1,8 @@
-package com.example.tasklist.web.security.expression;
+package com.example.test_project.web.security.expression;
 
-import com.example.tasklist.domain.user.Role;
-import com.example.tasklist.service.UserService;
-import com.example.tasklist.web.security.JwtEntity;
+import com.example.test_project.domain.user.Role;
+import com.example.test_project.service.UserService;
+import com.example.test_project.web.security.JwtEntity;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.Getter;
 import lombok.Setter;

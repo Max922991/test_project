@@ -1,13 +1,13 @@
-package com.example.tasklist.web.controller;
+package com.example.test_project.web.controller;
 
-import com.example.tasklist.domain.user.User;
-import com.example.tasklist.service.AuthService;
-import com.example.tasklist.service.UserService;
-import com.example.tasklist.web.dto.auth.JwtRequest;
-import com.example.tasklist.web.dto.auth.JwtResponse;
-import com.example.tasklist.web.dto.user.UserDto;
-import com.example.tasklist.web.dto.validation.OnCreate;
-import com.example.tasklist.web.mappers.UserMapper;
+import com.example.test_project.domain.user.User;
+import com.example.test_project.service.AuthService;
+import com.example.test_project.service.UserService;
+import com.example.test_project.web.dto.auth.JwtRequest;
+import com.example.test_project.web.dto.auth.JwtResponse;
+import com.example.test_project.web.dto.user.UserDto;
+import com.example.test_project.web.dto.validation.OnCreate;
+import com.example.test_project.web.mappers.UserMapper;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.validation.annotation.Validated;

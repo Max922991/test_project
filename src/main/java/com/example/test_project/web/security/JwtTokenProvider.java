@@ -1,11 +1,11 @@
-package com.example.tasklist.web.security;
+package com.example.test_project.web.security;
 
-import com.example.tasklist.domain.exception.AccessDeniedException;
-import com.example.tasklist.domain.user.Role;
-import com.example.tasklist.domain.user.User;
-import com.example.tasklist.service.UserService;
-import com.example.tasklist.service.props.JwtProperties;
-import com.example.tasklist.web.dto.auth.JwtResponse;
+import com.example.test_project.domain.exception.AccessDeniedException;
+import com.example.test_project.domain.user.Role;
+import com.example.test_project.domain.user.User;
+import com.example.test_project.service.UserService;
+import com.example.test_project.service.props.JwtProperties;
+import com.example.test_project.web.dto.auth.JwtResponse;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;
 import io.jsonwebtoken.Jwts;

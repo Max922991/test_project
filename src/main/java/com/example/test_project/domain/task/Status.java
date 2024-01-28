@@ -1,4 +1,4 @@
-package com.example.tasklist.domain.task;
+package com.example.test_project.domain.task;
 
 public enum Status {
 

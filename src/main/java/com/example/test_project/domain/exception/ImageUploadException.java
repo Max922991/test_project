@@ -1,4 +1,4 @@
-package com.example.tasklist.domain.exception;
+package com.example.test_project.domain.exception;
 
 public class ImageUploadException extends RuntimeException {
 

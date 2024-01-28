@@ -1,4 +1,4 @@
-package com.example.tasklist.service;
+package com.example.test_project.service;
 
 public interface Reminder {
 
